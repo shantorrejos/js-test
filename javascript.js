@@ -1,23 +1,18 @@
+function add7(x){
+    return x +7;
+}   
 
-function ask(question, yes, no) {
-    if (confirm(question)) yes()
-        else no();
+function multiply(x, y){
+    return x * y;
 }
 
-function showOk() {
-    alert("You Agreed.");
+function capitalize(str){
+    let strLowercase = str.toLowerCase();
+    return strLowercase.charAt(0).toUpperCase() + strLowercase.slice(1);
 }
 
-function showCancel() {
-    alert("You canceled the execution.");
+function lastLetter(str) {
+    return str.charAt(str.length - 1);
 }
 
-alert(showCancel);
-alert(showOk);
-
-ask("Do you agree?", showOk, showCancel);
-// Functions can be values if not explicitly coded ot be called.
-// 
-// 
-// 
-// 
+console.log(lastLetter("bAnanAlegs"));

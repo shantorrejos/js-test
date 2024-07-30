@@ -17,16 +17,22 @@
 
 // console.log(lastLetter("bAnanAlegs"));
 
-let userInput = new Number(prompt("Number"));
+// let userInput = new Number(prompt("Number"));
 
-for (let i = 0; i < userInput; i++) {
-    if ((i % 3 == 0) && (i % 5 == 0)) {
-        console.log("FizzBuzz");
-    } else if (i % 5 == 0){
-        console.log("Buzz");
-    } else if (i % 3 == 0){
-        console.log("Fizz");
-    } else {
-        console.log(i)
-    }
-}
+// for (let i = 0; i < userInput; i++) {
+//     if ((i % 3 == 0) && (i % 5 == 0)) {
+//         console.log("FizzBuzz");
+//     } else if (i % 5 == 0){
+//         console.log("Buzz");
+//     } else if (i % 3 == 0){
+//         console.log("Fizz");
+//     } else {
+//         console.log(i)
+//     }
+// }
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"]
+
+
+console.log(fruits.length);
+console.log(fruits.toString());
